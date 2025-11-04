@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSecurity Tool</title>
+    <style>
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(bgdar1.jpg);
+        background-position: center;
+        background-size: cover;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+    }
+    
+    .navbar{
+        height: 12%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 100px;
+        cursor: pointer;
+    }
+    .menu{
+        width: 30px;
+        cursor: pointer;
+        margin-left: 40px;
+    }
+    nav{
+        flex: 1;
+        text-align: right;
+    }
+    
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 50px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+    }
+    .row{
+        display: flex;
+        height: 88%;
+        align-items: center;
+    }
+    .col{
+        flex-basis: 50%;
+    }
+    h1{
+        color: #fff;
+        font-size: 100px;
+    }
+    p{
+        color: #fff;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    button{
+        width: 180px;
+        color: #000;
+        font-size: 12px;
+        padding: 12px 0;
+        background: #fff;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top: 30px;
+    }
+    .card{
+        width: 200px;
+        height: 230px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 1px 15px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGY8y2wVW1GHDcR6iD1ECbhyU74EIxgSryCxc5XvzGwN2neyzWyt6kM1nChANMpNmFmlo&usqp=CAU);
+        background-position: center;
+        background-size: cover;
+        transition: 0.5s;
+    }
+    
+    .card2{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfp8z9Vh9cUVPydKmAc3x5Xd3hyWWWCxHm3-e-KIJfVROXTLJPRRnrVT_8xMF7-PfiI20&usqp=CAU);
+    }
+    
+    .card3{
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/554/733/142/humor-simple-background-artwork-minimalism-wallpaper-preview.jpg);
+    }
+    
+    .card4{
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/447/862/439/simple-background-humor-blue-background-minimalism-wallpaper-preview.jpg);
+    }
+    
+    .card:hover{
+        transform: translateY(-10px);
+    }
+    
+    .card h5{
+        color: #000;
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="/static/images/logo.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </nav>
+            <img src="/static/images/menu.png" class="menu">
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h1>CYBOMATE</h1>
+                <p>Cybomate is an advanced cybersecurity platform offering real-time threat detection and protection using AI and machine learning. It ensures robust security for businesses and individuals against evolving cyber threats</p>
+                <button type="button">Explore</button>
+            </div>
+            <div class="col">
+                <a href="/command1" target="_blank">
+                <div class="card card1">
+                    <h5>Web Vulnerability</h5>
+                  
+                </div>
+               </a>
+               <a href="/command2" target="_blank">
+                <div class="card card2">
+                    <h5>Malware Scanner</h5>
+                  
+                </div>
+            </a>
+            <a href="/command3" target="_blank">
+                <div class="card card3">
+                    <h5>Password Cracker</h5>
+                    
+                </div>
+            </a>
+           
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
